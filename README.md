@@ -131,7 +131,7 @@ Ou
    - Crie um arquivo de teste em `/var/www/html/info.php`:
    ```bash
      sudo nano /var/www/html/info.php
-   ```bash
+   ```
 
    - Adicione o seguinte conteúdo:
    ```bash
