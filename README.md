@@ -12,6 +12,8 @@
 10. [Passo 9: Acessar o phpMyAdmin](#passo-9-acessar-o-phpmyadmin)
 11. [Passo 10: Redirecionamento de Portas](#passo-10-redirecionamento-de-portas)
 
+[Comandos Linux Debian] (https://github.com/Macelot/comandos-linux)
+
     
 # Guia de Instalação do Debian no Oracle VirtualBox
 
