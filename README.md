@@ -23,7 +23,7 @@ Este guia irá ensinar como instalar o **Debian** em uma máquina virtual no **O
 4. **Criar um Disco Rígido Virtual**:
    - Selecione **Criar um disco rígido virtual agora**.
    - Escolha o tipo de arquivo **VDI (VirtualBox Disk Image)**.
-   - Defina a **tamanho do disco rígido** (recomendado: **10 GB ou mais**).
+   - Defina a **tamanho do disco rígido** (recomendado: **20 GB ou mais**).
    - Escolha a opção **Dinamicamente alocado**.
 5. **Finalizar a criação da máquina virtual**.
 
