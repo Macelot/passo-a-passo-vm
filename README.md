@@ -62,7 +62,7 @@ Este guia irá ensinar como instalar o **Debian** em uma máquina virtual no **O
 5. **Instalar o Grub**:
    - Selecione **sim** para instalar o carregador de inicialização **GRUB**.
 
-Após a instalação ser concluída, o Debian será iniciado.
+Após a instalação ser concluída, o Debian será iniciado. Por padrão no Oracle Virtual Box 7 tem uma opção que cria o usuário vboxuser com senha changeme e usuário root com mesma senha
 
 ---
 
