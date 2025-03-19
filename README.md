@@ -1,5 +1,18 @@
 # passo-a-passo-vm
 
+1. [Requisitos](#requisitos)
+2. [Passo 1: Criação da Máquina Virtual no Oracle VirtualBox](#passo-1-criação-da-máquina-virtual-no-oracle-virtualbox)
+3. [Passo 2: Configurar a Máquina Virtual](#passo-2-configurar-a-máquina-virtual)
+4. [Passo 3: Instalação do Debian](#passo-3-instalação-do-debian)
+5. [Passo 4: Atualizar o Sistema](#passo-4-atualizar-o-sistema)
+6. [Passo 5: Configuração do Servidor SSH](#passo-5-configuração-do-servidor-ssh)
+7. [Passo 6: Instalar o Apache com PHP](#passo-6-instalar-o-apache-com-php)
+8. [Passo 7: Instalar o MySQL](#passo-7-instalar-o-mysql)
+9. [Passo 8: Instalar o phpMyAdmin](#passo-8-instalar-o-phpmyadmin)
+10. [Passo 9: Acessar o phpMyAdmin](#passo-9-acessar-o-phpmyadmin)
+11. [Passo 10: Redirecionamento de Portas](#passo-10-redirecionamento-de-portas)
+
+    
 # Guia de Instalação do Debian no Oracle VirtualBox
 
 Este guia irá ensinar como instalar o **Debian** em uma máquina virtual no **Oracle VirtualBox** e configurá-lo para atuar como um servidor SSH, com **Apache**, **PHP**, **MySQL**, e **phpMyAdmin**.
@@ -188,7 +201,10 @@ Ou
 
 - Abra um navegador e acesse: `http://<IP-da-VirtualBox>/phpmyadmin`.
 - Faça login com o **usuário root** ou qualquer outro usuário configurado no MySQL.
-  
+
+---
+
+## Passo 10: Redirecionamento de Portas
 Para simplificar o trabalho podemos fazer o redirecionamento de Portas. No Oracle Virtual Box, clique em Configurações, Rede, Redirecionamento de Portas, clique em adicionar (+) e adicione as regras a seguir.
 
  Rule | Protocolo | IP Hospedeiro/Host | Porta Hospedeiro | IP Convidado | Porta Convidado |
