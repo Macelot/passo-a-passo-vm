@@ -188,4 +188,13 @@ Ou
 
 - Abra um navegador e acesse: `http://<IP-da-VirtualBox>/phpmyadmin`.
 - Faça login com o **usuário root** ou qualquer outro usuário configurado no MySQL.
+  
+Para simplificar o trabalho podemos fazer o redirecionamento de Portas
+
+ Rule | Protocolo | IP Hospedeiro/Host | Porta Hospedeiro | IP Convidado | Porta Convidado |
+|------|-----------|--------------------|------------------|--------------|-----------------|
+| 1    | TCP       | 127.0.0.1          | 223333           | 10.0.2.15    | 22              |
+| 2    | TCP       | 127.0.0.1          | 8080             | 10.0.2.15    | 80              |
+| 3    | TCP       | 127.0.0.1          | 3306             | 10.0.2.15    | 3306            |
+  
 
