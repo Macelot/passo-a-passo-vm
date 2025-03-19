@@ -16,7 +16,7 @@ Este guia irá ensinar como instalar o **Debian** em uma máquina virtual no **O
 1. **Abrir o Oracle VirtualBox**.
 2. **Criar uma nova máquina virtual**:
    - Clique em **Novo**.
-   - **Nome**: Escolha um nome para a máquina virtual (ex: Debian-Server).
+   - **Nome**: Escolha um nome para a máquina virtual (ex: Debian-Server). Evite usar número 0. Exemplo Linux01.
    - **Tipo**: Selecione **Linux** e **Versão**: **Debian (64-bit)**.
 3. **Configuração de Memória**:
    - A memória recomendada para o Debian é **1GB ou mais**. Ajuste conforme o desempenho desejado.
