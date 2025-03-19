@@ -189,7 +189,7 @@ Ou
 - Abra um navegador e acesse: `http://<IP-da-VirtualBox>/phpmyadmin`.
 - Faça login com o **usuário root** ou qualquer outro usuário configurado no MySQL.
   
-Para simplificar o trabalho podemos fazer o redirecionamento de Portas
+Para simplificar o trabalho podemos fazer o redirecionamento de Portas. No Oracle Virtual Box, clique em Configurações, Rede, Redirecionamento de Portas, clique em adicionar (+) e adicione as regras a seguir.
 
  Rule | Protocolo | IP Hospedeiro/Host | Porta Hospedeiro | IP Convidado | Porta Convidado |
 |------|-----------|--------------------|------------------|--------------|-----------------|
